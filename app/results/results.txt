@@ -1,0 +1,68 @@
+SVM (10-fold cross-validation) Results:
+Correctly Classified Instances        7980               93.3006 %
+Incorrectly Classified Instances       573                6.6994 %
+Kappa statistic                          0.9017
+Mean absolute error                      0.2427
+Root mean squared error                  0.3203
+Relative absolute error                 88.9284 %
+Root relative squared error             86.7122 %
+Total Number of Instances             8553     
+>>>> Overall Confusion Matrix <<<<
+    a    b    c    d    e   <-- classified as
+ 2821    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  152   57    0 |    c = very_recom
+    0    0   29 2519  272 |    d = priority
+    0    0    0  213 2488 |    e = spec_prior
+======================
+SVM (Test Set Evaluation) Results:
+Correctly Classified Instances        4088               92.7615 %
+Incorrectly Classified Instances       319                7.2385 %
+Kappa statistic                          0.8939
+Mean absolute error                      0.2429
+Root mean squared error                  0.3205
+Relative absolute error                 88.9332 %
+Root relative squared error             86.6955 %
+Total Number of Instances             4407     
+>>>> Overall Confusion Matrix <<<<
+    a    b    c    d    e   <-- classified as
+ 1499    0    0    0    0 |    a = not_recom
+    0    0    0    0    0 |    b = recommend
+    0    0   87   32    0 |    c = very_recom
+    0    0   22 1281  143 |    d = priority
+    0    0    0  122 1221 |    e = spec_prior
+======================
+J48 (10-fold cross-validation) Results:
+Correctly Classified Instances        8233               96.2586 %
+Incorrectly Classified Instances       320                3.7414 %
+Kappa statistic                          0.945 
+Mean absolute error                      0.0201
+Root mean squared error                  0.1102
+Relative absolute error                  7.3598 %
+Root relative squared error             29.8425 %
+Total Number of Instances             8553     
+>>>> Overall Confusion Matrix <<<<
+    a    b    c    d    e   <-- classified as
+ 2821    0    0    0    0 |    a = not_recom
+    0    0    2    0    0 |    b = recommend
+    0    0  113   96    0 |    c = very_recom
+    0    0   40 2647  133 |    d = priority
+    0    0    0   49 2652 |    e = spec_prior
+======================
+J48 (Test Set Evaluation) Results:
+Correctly Classified Instances        4226               95.8929 %
+Incorrectly Classified Instances       181                4.1071 %
+Kappa statistic                          0.9399
+Mean absolute error                      0.0205
+Root mean squared error                  0.1123
+Relative absolute error                  7.5119 %
+Root relative squared error             30.3833 %
+Total Number of Instances             4407     
+>>>> Overall Confusion Matrix <<<<
+    a    b    c    d    e   <-- classified as
+ 1499    0    0    0    0 |    a = not_recom
+    0    0    0    0    0 |    b = recommend
+    0    0   85   34    0 |    c = very_recom
+    0    0   34 1335   77 |    d = priority
+    0    0    0   36 1307 |    e = spec_prior
+======================
